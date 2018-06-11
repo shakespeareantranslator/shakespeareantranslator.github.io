@@ -1,0 +1,58 @@
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #343434;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #343434;
+    color: white;
+}
+
+h1 {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;   
+    font-size: 48px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+
+h2 {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: 'Orienta', sans-serif;
+}
+
+h3 {
+    margin: 1em 0 .6em 0;
+    padding: 0 0 0 20px;
+    font-weight: normal;
+    color:  #343434;
+    font-family: 'Hammersmith One', sans-serif;
+    position: relative;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.image{
+  animation: App-logo-spin infinite 10s linear;
+ }
+
+ @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+ }
